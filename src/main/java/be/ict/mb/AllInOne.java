@@ -1,4 +1,4 @@
 package be.ict.mb;
 
-public class AllInOne extends Printer, Scanner {
+public class AllInOne implements CanPrint, CanScan {
 }
