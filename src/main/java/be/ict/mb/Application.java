@@ -7,5 +7,8 @@ public class Application {
         Scanner scanner = new Scanner();
 
         printer.print(scanner.scan());
+
+        AllInOne allInOne = new AllInOne();
+        allInOne.print(allInOne.scan());
     }
 }
