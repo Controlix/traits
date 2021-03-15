@@ -10,5 +10,8 @@ public class Application {
 
         AllInOne allInOne = new AllInOne();
         allInOne.print(allInOne.scan());
+
+        KotlinAllInOne kotlinAllInOne = new KotlinAllInOne();
+        kotlinAllInOne.print(kotlinAllInOne.scan());
     }
 }
